@@ -1,0 +1,56 @@
+/* News API Style.css file */
+*{
+	padding: 0;
+	margin: 0;
+	box-shadow: border-box;
+}
+body{
+	width: 100%;
+	background: #fbfbfb;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Elements Styling */
+.container{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	margin: 40px auto;
+	text-align: center;
+}
+	.header h1{
+    font: 800 84px "Work Sans";
+	}
+	.header p{
+		margin-top: -5px;
+		font: 400 18px "Merriweather";
+	}
+
+.content {
+	
+}
+
+.collapsible {
+	margin: auto;
+	width: 40%;	
+}
+.collapsible-header{
+	font-family: "Merriweather";
+	font-size: 16px;
+	font-weight: 700;
+	padding: 5px 20px;
+}
+.collapsible-body input[type='submit']{
+	display: block;
+	width: 40%;
+	height: 60px;
+	margin: 40px auto;
+	border: none;
+}
