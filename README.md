@@ -8,4 +8,4 @@ The static folder contains third party images or css files that are used by the 
 #### This is the front page from where the news source is selected.
 ![Alt text](https://github.com/1996sajal/News-blog-with-pymongo-and-bottle/blob/master/output.png)
 
-For any queries mail me at : [sajal007t@gmail.com](https://www.gmail.com)
+For any query mail me at : [sajal007t@gmail.com](https://www.gmail.com)
