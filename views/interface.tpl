@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>"Made by abhishek"</title>
 	<link rel="stylesheet" href="interface.css">
 	
 </head>
