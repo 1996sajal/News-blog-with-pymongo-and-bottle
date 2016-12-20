@@ -59,19 +59,18 @@ def page():
     if check_internet.is_connected():
         news_data = get_news(news_key)
         connect.insert(news_data["articles"])
-        return bottle.template("interface.tpl", source=news_data["source"], articles=news_data["articles"])
+        return bottle.template("interface.tpl", articles=news_data["articles"])
     else:
         news_data = connect.find()
         print(news_data)
         return bottle.template("interface.tpl", articles=news_data)
-        #return bottle.template("find.tpl", source=news_data)
 
 
 def main():
     try:
         bottle.run(host="localhost", port=8080)
-    except urllib.error.URLError:
-        print("sajal")
+    except urllib.error.URLError as er:
+        print(er)
 
 if __name__ == '__main__':
     main()
