@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{source}}</title>
+	<title>"Made by abhishek"</title>
 	<link rel="stylesheet" href="interface.css">
 	
 </head>
@@ -19,10 +19,7 @@
 				<p class="news-date">{{news["publishedAt"]}}<span style="float: right; font-weight: 400"></span></p>
 			</div>
 		</div>
-
-	
-	
-	
+		%end
 	</div>
 	
 </body>
