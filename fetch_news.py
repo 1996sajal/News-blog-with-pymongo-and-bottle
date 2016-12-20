@@ -62,7 +62,9 @@ def page():
         return bottle.template("interface.tpl", source=news_data["source"], articles=news_data["articles"])
     else:
         news_data = connect.find()
-        return bottle.template("find.tpl", source=news_data)
+        print(news_data)
+        return bottle.template("interface.tpl", articles=news_data)
+        #return bottle.template("find.tpl", source=news_data)
 
 
 def main():
